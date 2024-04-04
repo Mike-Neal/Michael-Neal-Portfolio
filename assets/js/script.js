@@ -3,4 +3,3 @@ $(document).ready(function () {
         $('.navbar-collapse').toggleClass('show');
     });
 });
-
