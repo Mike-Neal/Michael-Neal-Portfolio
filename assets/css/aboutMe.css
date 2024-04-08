@@ -16,19 +16,16 @@ header {
     font-family: cursive;
     font-size: 15pt;
     padding: 1px;
-    text-align: center;
-}
-
-#bio {
-    margin-left: 10px;
-    margin-right: 10px;
-    backdrop-filter: blur(5px);
-    color: darkblue;
+    text-align: right;
 }
 
 #profilePic {
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    position: absolute;
+  top: 5;
+  left: 0;
 }
