@@ -21,3 +21,27 @@ body {
     backdrop-filter: blur(5px);
 }
 
+#nflwcPic {
+    width: 100px;
+    height: 100px;
+}
+
+#kcmPic {
+    width: 100px;
+    height: 100px;
+}
+
+#amrapPic {
+    width: 100px;
+    height: 100px;
+}
+
+#pwgrPic {
+    width: 100px;
+    height: 100px;
+}
+
+#cquizPic {
+    width: 100px;
+    height: 100px;
+}
