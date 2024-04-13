@@ -78,3 +78,18 @@ cquizLink.addEventListener('click', function (event) {
     event.preventDefault();
     window.open(this.href, '_blank');
 });
+
+const wdsLink = document.createElement('a');
+const wdsLogo = document.createElement('img');
+
+wdsLink.href = 'https://mike-neal.github.io/Workday-Scheduler/';
+wdsLogo.src = './assets/img/wdsLogo.jpg';
+wdsLogo.alt = 'Workday Scheduler Logo';
+wdsLogo.id = 'wdsPic';
+
+wdsLink.appendChild(wdsLogo);
+document.getElementById('wds').appendChild(wdsLink);
+wdsLink.addEventListener('click', function (event) {
+    event.preventDefault();
+    window.open(this.href, '_blank');
+});
