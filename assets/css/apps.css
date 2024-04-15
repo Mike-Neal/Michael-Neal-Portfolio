@@ -19,6 +19,7 @@ body {
     float: left;
     width: 25%;
     backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 15px 5px #1d9ce5;
 }
 
 #nflwcPic {
