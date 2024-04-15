@@ -14,14 +14,14 @@ body {
 
 header {
     border: 10px ridge #E59833;
-    padding-bottom: 30px;
-    backdrop-filter: blur(10px);
+    padding-bottom: 10px;
+    background-color: darkgrey;
     font-size: 25px;
-    font-family: ;
 }
 
 main {
     display: flex;
+    padding-top: 40px;
 }
 
 .box {
