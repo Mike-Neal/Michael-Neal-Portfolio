@@ -12,14 +12,27 @@ body {
     height: 50px;
 }
 
+header {
+    border: 10px ridge #E59833;
+    padding-bottom: 30px;
+    backdrop-filter: blur(10px);
+    font-size: 25px;
+    font-family: ;
+}
+
+main {
+    display: flex;
+}
+
 .box {
     border-style: solid;
     border-width: 1px;
     padding: 10px;
-    float: left;
+    /* float: left; */
     width: 25%;
     backdrop-filter: blur(5px);
     box-shadow: 5px 5px 15px 5px #1d9ce5;
+    transform: rotate(330deg);
 }
 
 #nflwcPic {
