@@ -3,8 +3,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center; */
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    margin: 0;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; */
+    /* margin: 0; */
     color: aliceblue;
 }
 
@@ -19,6 +19,7 @@ header {
     padding: 1px;
     text-align: center;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+    
 }
 
 #profilePic {
@@ -38,4 +39,39 @@ footer {
     position: fixed;
     bottom: 0;
     backdrop-filter: blur(3px);
+}
+
+@media screen and (max-width: 992px) {
+    .box {
+        width: 50%;
+    }
+
+    /* Change the header color */
+    .box h3,
+    header {
+        background: #772014;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: 75%;
+    }
+
+    /* Change the header color */
+    .box h3,
+    header {
+        background: #bb8588;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .box {
+        width: 100%
+    }
+
+    .box h3,
+    header {
+        background-color: #8ac4ff;
+    }
 }

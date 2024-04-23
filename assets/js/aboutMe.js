@@ -9,7 +9,7 @@ const resumeLogo = document.createElement('img');
 
 resumeLink.href = './assets/img/MikeNealResume.pdf';
 resumeLink.id = 'mnResume';
-resumeLogo.src = './assets/img/Profile Pic Baldy.jpg';
+resumeLogo.src = './assets/img/MikeNealPic.jpg';
 resumeLogo.alt = 'Profile Picture';
 resumeLogo.id = 'profilePic';
 
